@@ -4,6 +4,7 @@ import AboutSection from './AboutSection'
 import CountsSection from './CountsSection'
 import WhyUsSection from './WhyUsSection'
 import FeatureSection from './FeatureSection'
+import CoursesSection from './CoursesSection'
 
 function MainSection() {
   return (
@@ -13,6 +14,7 @@ function MainSection() {
        <CountsSection></CountsSection>
        <WhyUsSection></WhyUsSection>
        <FeatureSection></FeatureSection>
+       <CoursesSection></CoursesSection>
       </div>
   )
 }
