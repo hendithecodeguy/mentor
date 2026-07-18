@@ -1,0 +1,6 @@
+export const data ={
+  students:1232,
+  courses:64,
+  events:42,
+  trainers:24
+}

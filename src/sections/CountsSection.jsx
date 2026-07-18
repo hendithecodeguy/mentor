@@ -1,8 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import PureCounter from '@srexi/purecounterjs';
-
-
+import { data } from '../datas/count';
 function CountsSection() {
  useEffect(() => {
     new PureCounter();
@@ -17,28 +16,28 @@ function CountsSection() {
 
           <div className="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" className="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end={data.students} data-purecounter-duration="1" className="purecounter"></span>
               <p>Students</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" className="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end={data.courses} data-purecounter-duration="1" className="purecounter"></span>
               <p>Courses</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1"  className="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end={data.events} data-purecounter-duration="1"  className="purecounter"></span>
               <p>Events</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end={data.trainers} data-purecounter-duration="1" class="purecounter"></span>
               <p>Trainers</p>
             </div>
           </div>
