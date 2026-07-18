@@ -1,4 +1,5 @@
 import React from 'react'
+import { data } from '../datas/feature'
 
 function FeatureSection() {
   return (
@@ -6,93 +7,16 @@ function FeatureSection() {
 
       <div className="container">
 
-        <div className="row gy-4">
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div className="row gy-4">        
+               {data.map((item)=>(
+          <div key={item.id} className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div className="features-item">
-              <i className="bi bi-eye" style={{color:" #ffbb2c"}}></i>
-              <h3><a href="" className="stretched-link">Lorem Ipsum</a></h3>
+              <i className={item.icon} style={{color:" #ffbb2c"}}></i>
+              <h3><a href="" className="stretched-link">{item.name}</a></h3>
             </div>
           </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div className="features-item">
-              <i className="bi bi-infinity" style={{color:" #5578ff"}}></i>
-              <h3><a href="" className="stretched-link">Dolor Sitema</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div className="features-item">
-              <i className="bi bi-mortarboard" style={{color:" #e80368"}}></i>
-              <h3><a href="" className="stretched-link">Sed perspiciatis</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div className="features-item">
-              <i className="bi bi-nut" style={{color:"#e361ff"}}></i>
-              <h3><a href="" className="stretched-link">Magni Dolores</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
-            <div className="features-item">
-              <i className="bi bi-shuffle" style={{color: "#47aeff"}}></i>
-              <h3><a href="" className="stretched-link">Nemo Enim</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div className="features-item">
-              <i className="bi bi-star" style={{color:" #ffa76e"}}></i>
-              <h3><a href="" className="stretched-link">Eiusmod Tempor</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
-            <div className="features-item">
-              <i className="bi bi-x-diamond" style={{color:" #11dbcf"}}></i>
-              <h3><a href="" className="stretched-link">Midela Teren</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
-            <div className="features-item">
-              <i className="bi bi-camera-video" style={{color: "#4233ff"}}></i>
-              <h3><a href="" className="stretched-link">Pira Neve</a></h3>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
-            <div className="features-item">
-              <i className="bi bi-command" style={{color:"#b2904f"}}></i>
-              <h3><a href="" className="stretched-link">Dirada Pack</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
-            <div className="features-item">
-              <i className="bi bi-dribbble" style={{color: "#b20969"}}></i>
-              <h3><a href="" className="stretched-link">Moton Ideal</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
-            <div className="features-item">
-              <i className="bi bi-activity" style={{color:" #ff5828"}}></i>
-              <h3><a href="" className="stretched-link">Verdo Park</a></h3>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
-            <div className="features-item">
-              <i className="bi bi-brightness-high" style={{color: "#29cc61"}}></i>
-              <h3><a href="" className="stretched-link">Flavor Nivelanda</a></h3>
-            </div>
-          </div>
-
+                ))}
         </div>
-
       </div>
 
     </section>

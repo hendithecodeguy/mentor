@@ -1,0 +1,61 @@
+export const data = [
+  {
+    id:1,
+    name:"Lorem ipsum",
+    icon:"bi bi-eye"
+  },{
+    id:2,
+    name:"Dolor Sitema",
+    icon:"bi bi-infinity"
+  },
+  {
+    id:3,
+    name:"Sed perspiciatis",
+    icon:"bi bi-mortarboard"
+  },
+  {
+    id:4,
+    name:"Magni Dolores",
+    icon:"bi bi-nut"
+  },
+  {
+    id:5,
+    name:"Nemo Enim",
+    icon:"bi bi-shuffle"
+  },
+  {
+    id:6,
+    name:"Eiusmod Tempor",
+    icon:"bi bi-star"
+  },
+  {
+    id:7,
+    name:"Midela Teren",
+    icon:"bi bi-x-diamond"
+  },
+  {
+    id:8,
+    name:"Pira Neve",
+    icon:"bi bi-camera-video"
+  },
+  {
+    id:9,
+    name:"Dirada Pack",
+    icon:"bi bi-dribbble"
+  },
+  {
+      id:10,
+      name:"Moton Ideal",
+      icon:"bi bi-command"
+  },
+  {
+     id:11,
+     name:"Verdo Park",
+     icon:"bi bi-activity"
+  },
+  {
+    id:12,
+    name:"Flavor Nivelanda",
+    icon:"bi bi-brightness-high"
+  }
+]
