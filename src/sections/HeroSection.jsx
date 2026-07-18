@@ -1,12 +1,12 @@
 import React from 'react'
-import heroBg from '/src/assets/img/hero-bg.jpg';
 import { data } from '../datas/hero';
+
 function HeroSection() {
   return (
     <div>
      <section id="hero" className="hero section dark-background">
 
-      <img src={heroBg} />
+      <img src={data.heroBg} />
 
       <div className="container">
         <h2 data-aos="fade-up" data-aos-delay="100">{data.motto1}<br></br>{data.motto2}</h2>

@@ -1,4 +1,6 @@
+import heroBg from '/src/assets/img/hero-bg.jpg';
 export const data ={
+    heroBg: heroBg,
   motto1: "Learning Today,",
   motto2: "Leading Tomorrow",
   note: "We are team of talented designers making websites with Bootstrap"
