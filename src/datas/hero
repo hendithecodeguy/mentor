@@ -1,0 +1,5 @@
+export const data ={
+  motto1: "Learning Today,",
+  motto2: "Leading Tomorrow",
+  note: "We are team of talented designers making websites with Bootstrap"
+};

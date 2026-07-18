@@ -1,6 +1,6 @@
 import React from 'react'
 import heroBg from '/src/assets/img/hero-bg.jpg';
-
+import { data } from '../datas/hero';
 function HeroSection() {
   return (
     <div>
@@ -9,8 +9,8 @@ function HeroSection() {
       <img src={heroBg} />
 
       <div className="container">
-        <h2 data-aos="fade-up" data-aos-delay="100">Learning Today,<br></br>Leading Tomorrow</h2>
-        <p data-aos="fade-up" data-aos-delay="200">We are team of talented designers making websites with Bootstrap</p>
+        <h2 data-aos="fade-up" data-aos-delay="100">{data.motto1}<br></br>{data.motto2}</h2>
+        <p data-aos="fade-up" data-aos-delay="200">{data.note}</p>
         <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
           <a href="courses.html" className="btn-get-started">Get Started</a>
         </div>
