@@ -1,0 +1,22 @@
+import aboutImg from '/src/assets/img/about.jpg';
+export const data = {
+  aboutImg: aboutImg,
+  purpose: "Voluptatem dignissimos provident quasi corporis",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+  aboutList: [
+    {
+      id: 1,
+      description: "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      id: 2,
+      description: "Duis aute irure dolor in reprehenderit in voluptate velit."
+    },
+    {
+      id: 3,
+      description: "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in."
+    }
+  ]
+}

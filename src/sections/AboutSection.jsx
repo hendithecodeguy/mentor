@@ -1,5 +1,6 @@
 import React from 'react'
-import aboutImg from '/src/assets/img/about.jpg';
+import { data } from '../datas/about'
+
 function AboutSection() {
   return (
   <div id="about" className="about section">
@@ -8,7 +9,7 @@ function AboutSection() {
                 <div className="row gy-4">
 
           <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src={aboutImg} class="img-fluid" alt=""></img>
+            <img src={data.aboutImg} class="img-fluid" alt=""></img>
           </div>
 
           <div className="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
@@ -18,10 +19,10 @@ function AboutSection() {
               magna aliqua.
             </p>
             <ul>
-              <li><i className="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i className="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i className="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
+              {data.aboutList.map((item)=>(              
+              <li key={item.id}><i className="bi bi-check-circle"></i> <span>{item.description}</span></li>
+              ))}
+                </ul>
             <a href="#" className="read-more"><span>Read More</span><i className="bi bi-arrow-right"></i></a>
           </div>
 
