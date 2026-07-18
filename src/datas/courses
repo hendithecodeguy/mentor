@@ -1,0 +1,44 @@
+import course1 from '/src/assets/img/course/course-1.webp';
+import person7 from '/src/assets/img/person/person-m-7.webp';
+import course2 from '/src/assets/img/course/course-2.webp';
+import person14 from '/src/assets/img/person/person-f-14.webp';
+import course3 from '/src/assets/img/course/course-3.webp';
+import person12 from '/src/assets/img/person/person-m-12.webp';
+export const data= [
+    {
+        id:1,
+        thumbnail:course1,
+        title:"Website Design",
+        category:"Web Development",
+        desciption:"Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+        price:169,
+        students:50,
+        likes:65,
+        instructorImg:person12,
+        name:"Antonio"
+    },
+    {
+        id:2,
+        thumbnail:course2,
+        title:"Search Engine Optimization",
+        category:"Marketing",
+        desciption:"Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+        price:250,
+        students:35,
+        likes:42,
+        instructorImg:person14,
+        name:"Lana"
+    },
+     {
+        id:3,
+        thumbnail:course3,
+        title:"Copywriting",
+        category:"Content",
+        desciption:"Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+        price:180,
+        students:20,
+        likes:85,
+        instructorImg:person7,
+        name:"Brandon"
+    }
+]
