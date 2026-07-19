@@ -2,10 +2,11 @@ import { useState } from 'react'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import heroImg from './assets/hero.png'
+
 import './App.css'
-import HeaderSection from './sections/HeaderSection'
 import MainSection from './sections/MainSection'
+import { Routes, Route } from "react-router-dom";
+import AboutPage from './pages/AboutPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,10 +18,10 @@ function App() {
     });
   }, []);
   return (
-    <>
-        <HeaderSection></HeaderSection>
-    <MainSection></MainSection>
-    </>
+      <Routes>
+        <Route path="/" element={<MainSection/>}/>
+        <Route path="/about" element={<AboutPage/>}/>
+      </Routes>
 
   )
 }
