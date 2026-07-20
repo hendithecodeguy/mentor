@@ -1,6 +1,6 @@
 import React from 'react'
-import { data } from '../datas/courses'
-import CoursesItem from '../components/CoursesItem'
+import { data } from '../../datas/courses'
+import CoursesItem from '../../components/CoursesItem'
 
 function CoursesSection() {
   return (

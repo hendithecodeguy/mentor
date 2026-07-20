@@ -1,6 +1,6 @@
 import React from 'react'
-import { data } from '../datas/feature'
-import FeatureItem from '../components/FeatureItem'
+import { data } from '../../datas/feature'
+import FeatureItem from '../../components/FeatureItem'
 
 function FeatureSection() {
   return (

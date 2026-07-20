@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import './App.css'
-import MainSection from './sections/MainSection'
+import MainSection from './sections/Home/MainSection'
 import { Routes, Route } from "react-router-dom";
 import AboutPage from './pages/AboutPage';
 

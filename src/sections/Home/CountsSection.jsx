@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import PureCounter from '@srexi/purecounterjs';
-import { data } from '../datas/count';
+import { data } from '../../datas/count';
 function CountsSection() {
  useEffect(() => {
     new PureCounter();

@@ -1,7 +1,6 @@
 import React from 'react'
-import { data } from '../datas/about'
-import AboutItem from '../components/AboutItem'
-
+import { data } from '../../datas/about'
+import AboutItem from '../../components/AboutItem'
 function AboutSection() {
   return (
   <div id="about" className="about section">

@@ -1,11 +1,11 @@
 import React from 'react'
-import HeroSection from './HeroSection'
-import AboutSection from './AboutSection'
-import CountsSection from './CountsSection'
-import WhyUsSection from './WhyUsSection'
-import FeatureSection from './FeatureSection'
-import CoursesSection from './CoursesSection'
-import HeaderSection from './HeaderSection'
+import HeroSection from '../Home/HeroSection'
+import AboutSection from '../Home/AboutSection'
+import CountsSection from '../Home/CountsSection'
+import WhyUsSection from '../Home/WhyUsSection'
+import FeatureSection from '../Home/FeatureSection'
+import CoursesSection from '../Home/CoursesSection'
+import HeaderSection from '../Home/HeaderSection'
 
 function MainSection() {
   return (
