@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function HeaderSection() {
   return (
@@ -9,12 +10,12 @@ function HeaderSection() {
 
       <nav id="navmenu" className="navmenu">
         <ul>
-          <li><a href="index.html" className="active">Home<br></br></a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="trainers.html">Trainers</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
+          <li><Link to="/" className="active">Home<br></br></Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/courses">Courses</Link></li>
+          <li><Link to="/trainers">Trainers</Link></li>
+          <li><Link to="/events">Events</Link></li>
+          <li><Link to="/pricing">Pricing</Link></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
