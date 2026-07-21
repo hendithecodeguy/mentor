@@ -1,14 +1,24 @@
 import React from 'react'
 import HeaderSection from '../sections/HeaderSection'
-import MainSection from '../sections/MainSection'
+import HeroSection from '../sections/HeroSection'
+import HomeAboutSection from '../sections/HomeAboutSection'
+import CountsSection from '../sections/CountsSection'
+import WhyUsSection from '../sections/WhyUsSection'
+import FeatureSection from '../sections/featureSection'
+import CoursesSection from '../sections/CoursesSection'
 
-function Home() {
+
+function HomePage() {
   return (
     <>
     <HeaderSection></HeaderSection>
-    <MainSection></MainSection>
+     <HomeAboutSection></HomeAboutSection>
+       <CountsSection></CountsSection>
+       <WhyUsSection></WhyUsSection>
+       <FeatureSection></FeatureSection>
+       <CoursesSection></CoursesSection>
     </>
   )
 }
 
-export default Home
+export default HomePage

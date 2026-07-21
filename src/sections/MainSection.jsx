@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSection from './HeroSection'
-import AboutSection from './AboutSection'
+import AboutSection from './HomeAboutSection'
 import CountsSection from './CountsSection'
 import WhyUsSection from './WhyUsSection'
 import FeatureSection from './featureSection'
@@ -10,11 +10,7 @@ function MainSection() {
     return (
       <>
       <HeroSection></HeroSection>
-       <AboutSection></AboutSection>
-       <CountsSection></CountsSection>
-       <WhyUsSection></WhyUsSection>
-       <FeatureSection></FeatureSection>
-       <CoursesSection></CoursesSection>
+      
       </>     
     )
 }
