@@ -4,8 +4,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import './App.css'
-import MainSection from './sections/Home/MainSection'
+import MainSection from './sections/MainSection'
 import { Routes, Route } from "react-router-dom";
+import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
   }, []);
   return (
       <Routes>
-        <Route path="/" element={<MainSection/>}/>
+        <Route path="/" element={<HomePage/>}/>
         <Route path="/about" element={<AboutPage/>}/>
       </Routes>
 

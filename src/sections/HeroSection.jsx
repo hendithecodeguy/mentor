@@ -1,5 +1,5 @@
 import React from 'react'
-import { data } from '../../datas/hero';
+import { data } from '../datas/hero';
 
 function HeroSection() {
   return (

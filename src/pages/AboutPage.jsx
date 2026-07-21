@@ -1,10 +1,13 @@
 import React from 'react'
+import HeaderSection from '../sections/HeaderSection'
 
 function AboutPage() {
   return (
-    <div>
-this is about!
-    </div>
+    <>
+     <HeaderSection></HeaderSection>
+     <p>this is about!</p>
+    </>
+   
   )
 }
 
